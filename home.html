@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoggyDayCare</title>
+    <!--bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--style-->
+    <style>
+    .social-icon-container {
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #000;
+    width: 40px; /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed */
+    line-height: 40px; /* Adjust size as needed */
+    }
+    .social-icon-container svg {
+    width: 20px; /* Adjust size as needed */
+    height: 20px; /* Adjust size as needed */
+    vertical-align: middle;
+    }
+    .navbar-custom{
+      background-color: #687a8f;
+    }
+    </style>
+    <!--favicon--> <!--need to update image used-->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    
+  </head>
+  <body style="background-color: #d2d2d2;">
+    <!--navbar--><!--need to update image for logo-->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container">
+          <a class="navbar-brand" href="home.html"><img src ="media/images/DoggyDayCare_Logo.png" alt="DoggyDayCare Logo" height="150"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="/about/about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact/contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/reviews/reviews.html">Reviews</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="/services/services.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/services/services.html#Class1">Class1 Placeholder</a></li>
+                  <li><a class="dropdown-item" href="/services/services.html#Class2">Class2 Placeholder</a></li>
+                  <li><a class="dropdown-item" href="services.html#Class3">Class3 Placeholder</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/calendar/calendar.html">Calendar</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!--carousel of images-->
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/media/images/banner1.png" style=max-height:350px; class="d-block w-100" alt="Carousel Placehoder 1">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Slide Label</h5>
+            <p>Slide Text Blurb</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/media/images/banner2.png" style=max-height:350px class="d-block w-100" alt="Carousel Placehoder 2">
+        </div>
+        <div class="carousel-item">
+          <img src="############" height="auto" class="d-block w-100" alt="Carousel Placehoder 3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+  </div>
+
+    <!--div container welcome to DoggyDayCare-->
+      <div class="container my-5">
+        <div class="row gx-5">
+          <div class="col-lg-6">
+              <h1>Welcome to DoggyDayCare</h1>
+              <p class="lead">Welcome to Paws & Progress – where your furry friend's happiness and growth are our top priorities! At our premier doggy daycare and training center, we provide a nurturing environment for your beloved companions to socialize, play, and learn. Whether your pup needs a safe place to spend the day while you're at work or wants to hone their skills through our expert-led training classes, we're here to cater to their every need. Join our community of pet lovers committed to fostering a positive and enriching experience for dogs of all breeds and sizes. Let's embark on this journey of companionship and growth together at Paws & Progress!"</p>
+          </div>
+          <div class="col-lg-6">
+            <div>
+                <img src="/media/images/puppierplaying.jpeg" alt="Watercolour image of puppies playing" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!--div container for review cards, reviews all 250 characters-->
+    <!--horizontal cards-->
+    <div class="container my-4">
+      <div class="row justify-content-between">
+        <div class="col-lg-4 mb-3">
+          <div class="card h-100" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Top-notch Care & Training</h5>
+                  <p class="lead">DoggyDayCare delivers exceptional daycare & training. My dog loves it! The trainers are fantastic & truly care about progress. Highly recommended for quality care & training.</p>
+                  <p class="card-text">.</p>
+                  <p class="card-text"><small class="text-muted">Ger - Dec 2023</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-3">
+          <div class="card h-100" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Safe Haven for Dogs</h5>
+                  <p class="lead">Grateful for Paws & Progress! Clean, spacious daycare & skilled trainers. They've helped my dog immensely. Trustworthy & nurturing environment for furry friends.</p>
+                  <p class="card-text">.</p>
+                  <p class="card-text"><small class="text-muted">Max - Mar 2022</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-3">
+          <div class="card h-100" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Life-Changing Experience</h5>
+                  <p class="lead">Paws & Progress is a game-changer! Great daycare & transformative training classes. Tailored approach & dedicated trainers. So grateful for the positive impact.</p>
+                  <p class="card-text">.</p>
+                  <p class="card-text"><small class="text-muted">Isobel - Apr 2023</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>   
+
+
+    <!--container of footer banner????????-->
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <img src="############" alt="FooterBanner" class="img-fluid" style="margin: 0; padding: 0;">
+        </div>
+    </div>
+    
+    <!--footer logo-->
+    <div id="footer" class="container">
+      <footer>
+        <div class="row my-2 justify-content-between text-center">
+          <div class="col-3 my-2"></div>
+          <div class="col-6 my-2">
+            <img src="#######" alt="DoggyDayCare_Logo" height="50">
+          </div>
+          <div class="col-3 my-2"></div>
+        </div>
+      </footer>
+    </div>
+
+<!--Bootstrap JS Code-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
