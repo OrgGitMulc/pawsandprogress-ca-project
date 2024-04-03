@@ -1,0 +1,84 @@
+body{
+  font-family: "Open Sans"; sans-serif;
+  color:#324255;
+  font-size:20px;
+  background-image: url(Final_images/background2.jpg);
+}
+
+.navbar-custom{
+  background-color: #687a8f;
+}
+
+
+li::marker {
+  color:#F7882F;
+}
+
+.apricot{
+  color:#F7882F;
+  font-family:"Pompiere";
+  font-size:40px;
+}
+
+.mission{
+
+  font-family: "Open Sans";
+  border-radius: 20px;
+  text-align: justify;
+  font-size: 20px;
+  border:50px;
+}
+
+.padding{
+  padding:30px;
+
+}
+.about{
+  margin-top:20px;
+  background-color: #BBB;
+  border-radius:20px;
+  font-family: "Open Sans";
+  font-size: 50px;
+}
+
+.text{
+  font-family: "Open Sans";
+  font-size: 20px;
+  text-align: justify;
+}
+
+.list{
+  font-family: "Open Sans";
+  color:#324255;
+  font-size:20px;
+
+}
+.nav-link{
+  font-family: "Pompiere";
+  font-size: 27px;
+  color:#F7882F;
+}
+
+.calendar{
+    background-color:#324255;
+}
+
+.thankyou{
+  font-style: italic;
+  text-align: center;
+  padding-top: 20px;
+
+
+}
+
+.thankyouinner{
+background-color:#DCC7AA;
+border-radius: 20px;
+}
+
+
+
+
+
+  
+
