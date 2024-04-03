@@ -2,7 +2,7 @@ body{
   font-family: "Open Sans"; sans-serif;
   color:#324255;
   font-size:20px;
-  background-image: url(../media/images/background.jpg);
+  background-image: url("media/images/background.jpg");
 }
 
 .navbar-custom{
