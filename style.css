@@ -1,7 +1,7 @@
 body{
   font-family: "Open Sans"; sans-serif;
   color:#324255;
-  font-size:20px;
+  font-size:18px;
   background-image: url("media/images/background.jpg");
 }
 
@@ -14,18 +14,31 @@ li::marker {
   color:#F7882F;
 }
 
+ul {
+  list-style-position: inside
+}
+
 .apricot{
   color:#F7882F;
   font-family:"Pompiere";
-  font-size:40px;
+  font-size:45px;
+  text-align: center;
 }
 
-.mission{
+.applesauce-border{
+  color:#687a8f;
+  font-family:"Pompiere";
+  font-size:30px;
+  background-color:#DCC7AA;
+  border-radius:20px;
+  text-align: center;
+ }
 
+.mission{
   font-family: "Open Sans";
   border-radius: 20px;
   text-align: justify;
-  font-size: 20px;
+  font-size: 18px;
   border:50px;
 }
 
@@ -43,7 +56,7 @@ li::marker {
 
 .text{
   font-family: "Open Sans";
-  font-size: 20px;
+  font-size: 18px;
   text-align: justify;
 }
 
@@ -60,15 +73,25 @@ li::marker {
 }
 
 .calendar{
-    background-color:#324255;
+    
 }
 
 .thankyou{
   font-style: italic;
   text-align: center;
   padding-top: 20px;
+}
 
-
+.twitter-timeline{
+  background-color: #324255;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 6px 12px 6px 30px;
+  margin: 10px 0;
+  border: #ccc solid 1px;
+  border-radius: 3px;
+  background: #f8f8f8 url("") 8px 8px no-repeat;
+  background-size: 1em 1em;
 }
 
 .thankyouinner{
@@ -76,7 +99,45 @@ background-color:#DCC7AA;
 border-radius: 20px;
 }
 
+.portrait {
+  max-width: 50%;
+  max-height: 50%;
+}
 
+.hidden {
+  display: none;
+}
+
+
+.card{
+  background-color:#d2d2d2;
+  border-radius:10px;
+  border-color:#d2d2d2;
+  
+}
+
+.twitter{
+  padding-bottom: 20px;
+  background-color;
+  border-radius:20px;
+  align-items: center;
+}
+
+.facebook{
+  padding-bottom: 20px;
+  border-radius: 30px;
+  align-items: center;
+ 
+}
+
+.blueberry{
+  color:#687a8f;
+  font-family:"Pompiere";
+  font-size:30px;
+  background-color:#DCC7AA;
+  border-radius:20px;
+ 
+}
 
 
 
