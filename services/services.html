@@ -97,19 +97,24 @@
             <button type="button" class="btn btn-primary" id="start_btn">Start Game</button>
         </div>
         </div>
-        <div class="row">
-          <div class="d-flex justify-content-center">
-            <img src="../media/images/pug.jpg" alt="Portrait of Pug" class="img-fluid portrait hidden" id="pug">
+        <div class="row justify-content-center">
+          <div class="col-6 my-1">
+            <img src="../media/images/pug.jpg" alt="Portrait of Pug" class="d-none img-fluid mx-auto portrait" id="pug">
           </div>
         </div>
-        <div class="row">
-          <div class="d-flex justify-content-center">
-            <img src="../media/images/daschund.jpg" alt="Portrait of Daschund" class="img-fluid portrait hidden" id="dasc">
+        <div class="row justify-content-center">
+          <div class="col-6 my-1">
+            <img src="../media/images/daschund.jpg" alt="Portrait of Daschund" class="d-none img-fluid mx-auto portrait" id="dasc">
           </div>
         </div>
-        <div class="row">
-          <div class="d-flex justify-content-center">
-            <img src="../media/images/jack_russell.jpg" alt="Portrait of Jack Russell" class="img-fluid portrait hidden" id="jack">
+        <div class="row justify-content-center">
+          <div class="col-6 my-1">
+            <img src="../media/images/jack_russell.jpg" alt="Portrait of Jack Russell" class="d-none img-fluid mx-auto portrait" id="jack">
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-6 align-items-center">
+            <p>Guess the animal breed to win a coupon!!!</p>
           </div>
         </div>
         <div class="row hidden" id="ans_area">
@@ -121,6 +126,16 @@
           </div>
           <div class="col-4 d-flex justify-content-center">
               <button type="button" class="btn btn-primary" id="ans3">Jack Russell</button>
+          </div>
+        </div>
+        <div class="row hidden" id="right_blurb">
+          <div class="col d-flex justify-content-center">
+            <p>Correct!!!</p>
+          </div>
+        </div>
+        <div class="row hidden" id="wrong_blurb">
+          <div class="col d-flex justify-content-center">
+            <p>Incorrect!!!</p>
           </div>
         </div>
       </div>
