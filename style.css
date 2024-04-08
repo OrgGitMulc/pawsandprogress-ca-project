@@ -148,6 +148,38 @@ border-radius: 20px;
  
 }
 
+.social-icon-container {
+  text-align: center;
+  border-radius: 50%;
+  border: 2px solid #000;
+  width: 40px; /* Adjust size as needed */
+  height: 40px; /* Adjust size as needed */
+  line-height: 40px; /* Adjust size as needed */
+  }
+  .social-icon-container svg {
+  width: 20px; /* Adjust size as needed */
+  height: 20px; /* Adjust size as needed */
+  vertical-align: middle;
+  }
+
+  .apricot-smaller{
+    color:#F7882F;
+    font-family:"Pompiere";
+    font-size:30px;
+    text-align: center;
+  }
+  .lemon{
+    color:#f9c32d;
+    font-family:"Pompiere";
+    font-size:45px;
+    text-align: center;
+  }
+  .lemon-smaller{
+    color:#f9c32d;
+    font-family:"Pompiere";
+    font-size:30px;
+    text-align: center;
+  }
 
 
   
