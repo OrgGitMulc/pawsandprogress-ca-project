@@ -1,5 +1,5 @@
 body{
-  font-family: "Open Sans"; sans-serif;
+  font-family: "Open Sans", sans-serif;
   color:#324255;
   font-size:18px;
   background-image: url("media/images/background.jpg");
@@ -127,7 +127,6 @@ border-radius: 20px;
 
 .twitter{
   padding-bottom: 20px;
-  background-color;
   border-radius:20px;
   align-items: center;
 }
