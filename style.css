@@ -99,19 +99,12 @@ background-color:#DCC7AA;
 border-radius: 20px;
 }
 
-.portrait {
-  max-width: 50%;
-  max-height: 50%;
-}
-
-.hidden {
-  display: none;
-}
 
 .portrait {
   max-width: 50%;
-  max-height: 50%;
+  max-height: 90%;
 }
+
 
 .hidden {
   display: none;
@@ -178,6 +171,11 @@ border-radius: 20px;
     font-family:"Pompiere";
     font-size:30px;
     text-align: center;
+  }
+
+  .apricot-btn{
+    background-color: #F7882F; 
+    color: white;
   }
 
 
