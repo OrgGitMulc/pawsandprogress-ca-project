@@ -161,7 +161,7 @@ function setOldImageGSD()
 
 //Contact page
 function setNewImageOurTrainers()
-{document.getElementById("gsd").src="../media/images/trainer_new";}
+{document.getElementById("ourTrainers").src="../media/images/trainer_new";}
 
 function setOldImageOurTrainers()
-{document.getElementById("gsd").src="../media/images/trainer_old.jpg";}
+{document.getElementById("ourTrainers").src="../media/images/trainer_old.jpg";}
