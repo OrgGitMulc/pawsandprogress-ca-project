@@ -62,14 +62,14 @@
       <div class="container-fluid">
         <div class="row align-items-center">
           <div class="col">
-            <h2 class="apricot">Coupon Game</h2>
+            <h2 class="apricot">Coupon Game - Guess the Dog breed to win a coupon !!!</h2>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-2">
           </div>
           <div class="col-8 text-center">
-            <p>At Paws & Progress we want everyone to have a good first impression. Try our guessing game below to win a free coupon for your first visit!</p>
+            <p>At Paws & Progress we want everyone to have a good first impression. Try our guessing game below to win a free coupon for your first visit! Hit the button below to start</p>
           </div>
           <div class="col-2">
           </div>
@@ -77,19 +77,19 @@
         <div class="row">
           <div class="col d-flex justify-content-center">
             <button type="button" class="btn apricot-btn" id="start_btn">Start Game</button>
+          </div>
         </div>
-        </div>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center" id="img-row-1">
           <div class="col-4 my-1">
             <img src="../media/images/pug.jpg" alt="Portrait of Pug" class="d-none img-fluid mx-auto portrait" id="pug">
           </div>
         </div>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center" id="img-row-2">
           <div class="col-4 my-1">
             <img src="../media/images/daschund.jpg" alt="Portrait of Daschund" class="d-none img-fluid mx-auto portrait" id="dasc">
           </div>
         </div>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center" id="img-row-3">
           <div class="col-4 my-1">
             <img src="../media/images/jack_russell.jpg" alt="Portrait of Jack Russell" class="d-none img-fluid mx-auto portrait" id="jack">
           </div>
@@ -106,12 +106,12 @@
           </div>
         </div>
         <div class="row hidden" id="right_blurb">
-          <div class="col text-center">
+          <div class="col text-center apricot">
             <p>Correct!!!</p>
           </div>
         </div>
         <div class="row hidden" id="wrong_blurb">
-          <div class="col text-center">
+          <div class="col text-center apricot">
             <p>Incorrect!!!</p>
           </div>
         </div>
@@ -120,42 +120,6 @@
       <br>
 
       <div class="container">
-        <!-- <div class="row justify-content-center">
-          <div class="col-4">
-            <p class="apricot">Food</p>
-            <ul>
-              <li>
-                At Paws & Progress we have a strong commitment to healthy and nutritious food for your pets.
-              </li>
-              <li>
-                We offer a wide variety of wet and dry foods and treats, so please let us know what your paw pal prefers!
-              </li>
-              <li>
-                Our suppliers are hand picked by our qualified staff here at Paws & Progress.
-              </li>
-            </ul>
-            <img src="../media/images/dog_food.jpg" alt="dog food" class="img-fluid mx-auto">
-          </div>
-          <div class="col-4">
-            <p class="apricot">Training</p>
-            <ul>
-              <li>Here at Paws & Progress we have a multitude of dog trainers from a wide range of backgrounds.</li>
-              <li>We offer training courses suited to dogs at any level, from beginner to intermediate to master! But don't fret, no prior training is required to join our courses.</li>
-              <li>Be sure to contact staff to ask about our courses. We'll even offer the first lesson for <b>FREE</b>!</li>
-            </ul>
-            <img src="../media/images/trainer4.jpg" alt="dog awaiting trainers instructions" class="img-fluid mx-auto">
-          </div>
-          <div class="col-4">
-            <p class="apricot">Healthcare</p>
-            <ul>
-              <li>The health and safety of your dogs is our #1 priority here at Paws & Progress.</li>
-              <li>Paws & Progress have licenced veterinary staff on site during our open hours. So you can relax and know your pets are safe with us.</li>
-              <li>We also offer some veterinary services such as vaccinations, microchipping and monthly checkups.</li>
-              <li>Don't hesitate to contact our staff if your dog has any additional veterinary requirements.</li>
-            </ul>
-            <img src="../media/images/vet.jpg" alt="Vet tending to a dog" class="img-fluid">
-          </div>
-        </div> -->
         <div class="row justify-content-center">
           <div class="col-6">
             <p class="apricot">Food</p>
@@ -214,6 +178,8 @@
     
 <!-- Custom JS Code -->
   <script src="../script.js"></script>
+<!--jQuery CDN-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
 <!--Bootstrap JS Code-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

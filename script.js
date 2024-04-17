@@ -26,12 +26,22 @@ var question = Math.floor(Math.random() * 3);
  * Event Listeners
  */
 
+//event listener to start coupon game
 start_btn.addEventListener('click', function () {
     console.log('Start Game!!!');
     start_game(question);
+    if (question == 0){
+        document.getElementById('img-row-1').classList.toggle('fade');
+    } else if (question == 1){
+        document.getElementById('img-row-2').classList.toggle('fade');
+    } else if (question == 2){
+        document.getElementById('img-row-3').classList.toggle('fade');
+    }
     console.log(question);
 });
 
+
+//Guess btn event listners for the coupon game
 ans1.addEventListener('click', function () {
     guess = 0;
     console.log('Guess # '+guess);
@@ -51,9 +61,13 @@ ans3.addEventListener('click', function () {
     console.log('Guess # '+guess);
     console.log('Question # '+question);
     game_logic(question, guess);
+    
 });
 
-//using boostrap classes d-none & d-block for img hidding as hidden css class disrupts positioning
+/** 
+ * This function starts the game by revealing relvant elements.
+ * Using boostrap classes d-none & d-block for img hidding as hidden css class disrupts positioning
+*/ 
 function start_game(question){
     start_btn.classList.add('hidden');
     if (question == 0){

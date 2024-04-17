@@ -111,6 +111,17 @@ border-radius: 20px;
 }
 
 
+#img-row-1, #img-row-2, #img-row-3  {
+  opacity: 0;
+  -webkit-transition: opacity 0.5s ease-in-out;
+}
+
+
+#img-row-1.fade, #img-row-2.fade, #img-row-3.fade {
+  opacity: 1;
+}
+
+
 .card{
   background-color:#d2d2d2;
   border-radius:10px;
