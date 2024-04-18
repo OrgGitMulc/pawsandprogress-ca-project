@@ -151,3 +151,17 @@ function setOldImageEat()
       
 function setOldImageSleep()
       {document.getElementById("sleep").src="../media/images/sleep_old.jpg";}
+
+//Home page
+function setNewImageGSD()
+{document.getElementById("gsd").src="../media/images/gsd_new.jpg";}
+
+function setOldImageGSD()
+{document.getElementById("gsd").src="../media/images/gsd_old.jpg";}
+
+//Contact page
+function setNewImageOurTrainers()
+{document.getElementById("ourTrainers").src="../media/images/trainer_new";}
+
+function setOldImageOurTrainers()
+{document.getElementById("ourTrainers").src="../media/images/trainer_old.jpg";}
