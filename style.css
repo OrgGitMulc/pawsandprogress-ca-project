@@ -1,23 +1,24 @@
 body{
   font-family: "Open Sans", sans-serif;
-  color:#324255;
+  color:#324255; /*navy colour*/
   font-size:18px;
-  background-image: url("media/images/background.jpg");
+  background-image: url("media/images/background.jpg");/*subtle paw background*/
 }
 
 .navbar-custom{
-  background-color: #687a8f;
+  background-color: #687a8f;/*blueberry colour*/
 }
 
-
+/*for coloured bullet points*/
 li::marker {
-  color:#F7882F;
+  color:#F7882F;/*apricot colour*/
 }
 
 ul {
   list-style-position: inside
 }
 
+/*apricot headings*/
 .apricot{
   color:#F7882F;
   font-family:"Pompiere";
@@ -72,9 +73,7 @@ ul {
   color:#F7882F;
 }
 
-.calendar{
-    
-}
+
 
 .thankyou{
   font-style: italic;
@@ -123,7 +122,7 @@ border-radius: 20px;
 
 
 .card{
-  background-color:#d2d2d2;
+  background-color:#d2d2d2;/*light grey colour*/
   border-radius:10px;
   border-color:#d2d2d2;
   
