@@ -10,7 +10,7 @@ form.addEventListener('submit', (e) => {
     }
 
     if (email.value === '' || email.value == null){
-        alert('Please enter a email address!');
+        alert('Please enter an email address!');
         e.preventDefault();
     }
 
