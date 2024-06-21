@@ -9,3 +9,14 @@ workflows:
             branches:
               only:
                 - main
+
+jobs:
+  build:
+    working_directory: ~/pawsandprogress-ca-project
+    docker:
+      - image: circleci/node:10.16.3
+    steps:
+    - checkout
+    -run:
+      name: test-1
+      command: echo this is a test
